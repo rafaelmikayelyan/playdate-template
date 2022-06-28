@@ -9,7 +9,6 @@
     │   ├── sounds/
     │   ├── main.lua
     │   └── pdxinfo
-    ├── .gitignore
+    ├── README.md
     ├── build.sh
-    ├── transfer-build.sh
-    └── README.md
+    └── transfer-build.sh
