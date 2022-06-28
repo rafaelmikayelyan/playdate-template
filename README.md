@@ -1,5 +1,7 @@
 # playdate-template
 
+[Playdate SDK Doc](https://sdk.play.date/)
+
     .
     ├── build/
     ├── support/
