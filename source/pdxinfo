@@ -1,0 +1,6 @@
+name=game
+author=author
+description=game
+bundleID=com.author.game
+version=0.0
+imagePath=launcher/
