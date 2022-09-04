@@ -3,7 +3,8 @@ then
 mkdir build/ && echo "-> created build/"
 fi
 
-local readline=$(head -n 1 source/pdxinfo)
-local name=${readline#*=}
+name=$(awk '/name/' source/pdxinfo)
+version=$(awk '/version/' source/pdxinfo)
+filename=${name#*=}-${version#*=}.pdx
 
 pdc source build/${name}.pdx && open build/${name}.pdx
