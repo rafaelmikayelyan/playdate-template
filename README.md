@@ -1,7 +1,11 @@
 # playdate-template
 
-[Playdate SDK Doc](https://sdk.play.date/)
+* [Playdate DEV portal](https://play.date/dev/)
+    * [Playdate SDK Doc (Lua APIs)](https://sdk.play.date/)
+    * [Articles](https://help.play.date/developer/)
+        * [Best Practices](https://help.play.date/developer/designing-for-playdate/)
 
+```
     .
     ├── build/
     ├── support/
@@ -14,3 +18,4 @@
     ├── README.md
     ├── build.sh
     └── transfer-build.sh
+```
